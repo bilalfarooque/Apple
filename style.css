@@ -94,6 +94,7 @@ section {
 .banner1{
   width: 100%;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .bimg1{
@@ -151,6 +152,7 @@ section {
   height: 80vh;
   position: relative;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .bvid2 {
@@ -196,7 +198,7 @@ sup {
   width: 100vw;
   max-width: 100%;
   height: 100%;
-  margin-bottom: 320px;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 
@@ -219,12 +221,61 @@ sup {
   left: 30%;
 }
 
+.banner4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+
+}
+
+.banner4a{
+  width: 50%;
+ 
+  margin-right: 5px;
+}
+
+.bimg4a img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  
+}
+.banner4b{
+  width: 50%;
+  margin-left: 5px;
+}
+
+.bimg4b img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
 
 
-
+.desp4a {
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  color: #1d1d1f;
+  margin: auto;
+  top: 50px;
+  left: 6.1%;
+}
+.desp4b {
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  color: #1d1d1f;
+  margin: auto;
+  top: 430px;
+  left: 55%;
+}
 
 
 
 .box {
   height: 2500px;
+  margin: 150px;
 }
