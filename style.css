@@ -132,6 +132,9 @@ section {
   line-height: 1.1;
   font-weight: 400;
   letter-spacing: 0.004em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .links {
   display: inline-block;
@@ -221,7 +224,7 @@ sup {
   left: 30%;
 }
 
-.banner4{
+.banner4,.banner5,.banner6{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,24 +233,25 @@ sup {
 
 }
 
-.banner4a{
+.banner4a,.banner5a,.banner6a{
   width: 50%;
- 
   margin-right: 5px;
+  height: 25vh;
 }
 
-.bimg4a img{
+.bimg4a img,.bimg5a img,.bimg6a img{
   width: 100%;
   height: 100%;
   object-fit: fill;
   
 }
-.banner4b{
+
+.banner4b,.banner5b,.banner6b{
   width: 50%;
   margin-left: 5px;
 }
 
-.bimg4b img{
+.bimg4b img,.bimg5b img,.bimg6b img{
   width: 100%;
   height: 100%;
   object-fit: fill;
@@ -273,9 +277,64 @@ sup {
   left: 55%;
 }
 
+.supsubhead{
+  color: #adadb0;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+}
+
+.desp5a {
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  color: #fbfbfd;
+  margin: auto;
+  top: 50px;
+  left: 6.1%;
+}
 
 
-.box {
-  height: 2500px;
+.desp5b {
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  color: #fbfbfd;
+  margin: auto;
+  top: 430px;
+  left: 55%;
+}
+
+.banner5a h6{
+  color: rgba(255, 0, 0, 0.666);
+  font-size: 16px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: 0.19em;
+}
+
+.desp6a {
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  color: #1d1d1f;
+  margin: auto;
+  top: 50px;
+  left: 6.1%;
+}
+.desp6b {
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  color: #1d1d1f;
+  margin: auto;
+  top: 430px;
+  left: 55%;
+}
+
+.box2 p {
+  height: 1500px;
   margin: 150px;
+  background-color: red;
 }
