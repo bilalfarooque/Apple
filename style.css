@@ -21,7 +21,6 @@ header {
 } */
 
 nav {
-  
   font-size: 12px;
   font-weight: 400;
   letter-spacing: -0.01em;
@@ -38,8 +37,7 @@ nav {
   width: 100%;
   position: fixed;
   z-index: 9999;
-  background-color: rgb(252, 252, 253,0.9);
-
+  background-color: rgb(252, 252, 253, 0.9);
 }
 
 ul {
@@ -63,6 +61,11 @@ ul {
   color: black;
 }
 
+.main {
+  position: absolute;
+  top: 40px;
+}
+
 .add {
   display: flex;
   justify-content: center;
@@ -70,8 +73,6 @@ ul {
   width: 100%;
   margin: auto;
   line-height: 40px;
-  position: absolute;
-  top: 40px;
 }
 
 .add a {
@@ -87,23 +88,23 @@ section {
 section {
   width: 100%;
   background-color: #fbfbfd;
-  position: absolute;
-  top: 80px;
+  /* position: absolute;
+  top: 80px; */
 }
 
-.banner1{
+.banner1 {
   width: 100%;
   position: relative;
   margin-bottom: 10px;
 }
 
-.bimg1{
+.bimg1 {
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  /* height: 100%;
+  overflow: hidden; */
 }
 
-.bimg1 img{
+.bimg1 img {
   width: 100%;
   height: 100%;
   margin-top: -200px;
@@ -190,12 +191,12 @@ sup {
   font-size: 0.6em;
 }
 
-.banner3{
+.banner3 {
   width: 100%;
   position: relative;
 }
 
-.bimg3{
+.bimg3 {
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -205,13 +206,12 @@ sup {
   overflow: hidden;
 }
 
-.bimg3 img{
+.bimg3 img {
   width: 200vw;
   /* width: 100%; */
   height: 100%;
   object-fit: fill;
   margin: auto;
-  
 }
 
 .desp3 {
@@ -224,41 +224,47 @@ sup {
   left: 30%;
 }
 
-.banner4,.banner5,.banner6{
+.banner4,
+.banner5,
+.banner6 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   position: relative;
-
-
 }
 
-.banner4a,.banner5a,.banner6a{
+.banner4a,
+.banner5a,
+.banner6a {
   width: 50%;
   margin-right: 5px;
   /* height: 25vh; */
 }
 
-.bimg4a img,.bimg5a img,.bimg6a img{
+.bimg4a img,
+.bimg5a img,
+.bimg6a img {
   width: 100%;
   height: 100%;
   object-fit: fill;
-  
 }
 
-.banner4b,.banner5b,.banner6b{
+.banner4b,
+.banner5b,
+.banner6b {
   width: 50%;
   margin-left: 5px;
   /* height: 25vh; */
 }
 
-.bimg4b img,.bimg5b img,.bimg6b img{
+.bimg4b img,
+.bimg5b img,
+.bimg6b img {
   width: 100%;
   height: 100%;
   object-fit: fill;
 }
-
 
 .desp4a {
   text-align: center;
@@ -279,7 +285,7 @@ sup {
   left: 55%;
 }
 
-.supsubhead{
+.supsubhead {
   color: #adadb0;
   font-size: 18px;
   line-height: 2;
@@ -297,7 +303,6 @@ sup {
   left: 6.1%;
 }
 
-
 .desp5b {
   text-align: center;
   position: absolute;
@@ -308,7 +313,7 @@ sup {
   left: 55%;
 }
 
-.banner5a h6{
+.banner5a h6 {
   color: rgba(255, 0, 0, 0.666);
   font-size: 16px;
   line-height: 1.1;
@@ -342,33 +347,113 @@ footer {
   width: 100%;
   height: 1000px;
   background-color: #fbfbfd;
-  
 }
 
-.notes{
+.notes {
   width: 70%;
   margin: auto;
-  
-  
-  
+  padding: 25px 0px;
 }
 
-.notes ul{
-  width: 980px;
+.notes ul {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  margin: 35px;
-  
-
 }
 
-.notes li{
-  
+hr {
+  width: 70%;
+  margin: auto;
+}
+
+.notes li {
   font-size: 12px;
   line-height: 1.83337;
   font-weight: 400;
-  letter-spacing: -.01em;
-  color:#6e6e73;
+  letter-spacing: -0.01em;
+  color: #6e6e73;
+}
+
+.glossary {
+  width: 70%;
+  margin: auto;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  height: 420px;
+  padding: 15px 0px;
+}
+
+.glossary > div {
+  display: inline-block;
+  padding: 1px;
+  width: 18%;
+  font-size: 12px;
+  line-height: 1.23337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #424245;
+}
+
+.glossary ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.glossary li {
+  margin: 0px 0px 9.6px;
+  text-align: left;
+}
+
+.glossary h3 {
+  margin: 0px 0px 9.6px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.23337;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #1d1d1f;
+}
+
+.footer-shop {
+  width: 70%;
+  margin: auto;
+  padding: 15px 0px;
+  font-size: 12px;
+  line-height: 1.23337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #424245;
+}
+
+.footer-shop a {
+  color: #06c;
+}
+
+.legal {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 15px 0px;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 1.23337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #424245;
+}
+
+.legal-links {
+  align-self: center;
+  width: 50%;
+}
+
+.legal-links ul li a {
+  list-style: none;
+  color: #424245;
 }
