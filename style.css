@@ -63,7 +63,7 @@ ul {
 
 .main {
   position: absolute;
-  top: 40px;
+  top:40px;
 }
 
 .add {
@@ -100,8 +100,7 @@ section {
 
 .bimg1 {
   width: 100%;
-  /* height: 100%;
-  overflow: hidden; */
+  overflow: hidden;
 }
 
 .bimg1 img {
@@ -238,8 +237,8 @@ sup {
 .banner5a,
 .banner6a {
   width: 50%;
-  margin-right: 5px;
-  /* height: 25vh; */
+  /* height: 600px; */
+  padding: 5px 5px 10px 10px;
 }
 
 .bimg4a img,
@@ -247,15 +246,16 @@ sup {
 .bimg6a img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .banner4b,
 .banner5b,
 .banner6b {
   width: 50%;
-  margin-left: 5px;
-  /* height: 25vh; */
+  /* height: 600px; */
+  padding: 5px 10px 10px 5px;
+
 }
 
 .bimg4b img,
@@ -263,7 +263,7 @@ sup {
 .bimg6b img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .desp4a {
@@ -309,7 +309,7 @@ sup {
   width: 40%;
   color: #fbfbfd;
   margin: auto;
-  top: 430px;
+  top: 50px;
   left: 55%;
 }
 
@@ -336,7 +336,7 @@ sup {
   width: 40%;
   color: #1d1d1f;
   margin: auto;
-  top: 430px;
+  top: 50px;
   left: 55%;
 }
 
@@ -345,7 +345,7 @@ footer {
   position: absolute;
   top: 4000px;
   width: 100%;
-  height: 1000px;
+  height: 800px;
   background-color: #fbfbfd;
 }
 
@@ -374,6 +374,10 @@ hr {
   font-weight: 400;
   letter-spacing: -0.01em;
   color: #6e6e73;
+}
+
+.notes li a{
+  color: #06c;
 }
 
 .glossary {
