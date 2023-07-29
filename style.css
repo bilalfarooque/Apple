@@ -119,6 +119,22 @@ nav {
   color: #333;
   line-height: 35px;
 }
+.row-lines-second li:nth-child(n + 2):nth-child(-n + 9) {
+  font-size: 25px;
+  font-weight: 600;
+  list-style: none;
+  padding: 0;
+  color: #333;
+  line-height: 35px;
+}
+.row-lines-third li:nth-child(n + 2):nth-child(-n + 8) {
+  font-size: 25px;
+  font-weight: 600;
+  list-style: none;
+  padding: 0;
+  color: #333;
+  line-height: 35px;
+}
 
 .blur {
   height: 500px;
